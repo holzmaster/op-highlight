@@ -5,8 +5,8 @@ Hebt den OP eines Bildes in den Kommentaren hervor.
 
 ## Installation
 1. Browser einrichten
-  - Firefox benötigt [Greasemonkey](https://addons.mozilla.org/de/firefox/addon/greasemonkey/)
-  - Chrome benötigt [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=de)
+  - Firefox benötigt [Greasemonkey](https://addons.mozilla.org/de/firefox/addon/greasemonkey/).
+  - Chrome benötigt [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=de).
   - IE benötigt einen kompetenten Benutzer (nicht nachinstallierbar).
 2. Skript hierüber installieren (klick oder kopieren und in Adressleiste einfügen oder so):
 
