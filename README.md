@@ -13,6 +13,6 @@ Hebt den OP eines Bildes in den Kommentaren hervor.
   [`https://raw.githubusercontent.com/pr0nopoly/op-highlight/master/op-highlight.user.js`](https://raw.githubusercontent.com/pr0nopoly/op-highlight/master/op-highlight.user.js)
 3. Beim pr0gramm F5 drücken.
 
-Updates kommen automatisch.
+Updates kommen automatisch. Verbesserungen oder Vorschläge sind gerne gesehen.
 
 Huldigt dem pr0gramm!
