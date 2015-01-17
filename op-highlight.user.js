@@ -8,6 +8,7 @@
 // @downloadURL	https://raw.githubusercontent.com/pr0nopoly/op-highlight/master/op-highlight.user.js
 // @copyright	2014+, holzmaster
 // @description	Hebt den OP eines Bildes in den Kommentaren hervor.
+// @icon		http://pr0gramm.com/media/pr0gramm-favicon.png
 // @grant		none
 // ==/UserScript==
 
