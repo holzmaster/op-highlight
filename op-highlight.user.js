@@ -3,7 +3,7 @@
 // @author		holzmaster
 // @namespace	holzmaster
 // @include		http://pr0gramm.com*
-// @version		1.0.3
+// @version		1.0.4
 // @updateURL	https://raw.githubusercontent.com/pr0nopoly/op-highlight/master/op-highlight.user.js
 // @downloadURL	https://raw.githubusercontent.com/pr0nopoly/op-highlight/master/op-highlight.user.js
 // @copyright	2014+, holzmaster
@@ -14,7 +14,7 @@
 
 (function() {
 	var opClassName = "extension-is-op"
-	var cssRule = "." + opClassName + " .user:before { content: '[OP] '; color: #EE4D2E; }";
+	var cssRule = "." + opClassName + " .user:before { content: 'OP'; color: rgb(255, 255, 255); padding: 1px 6px; vertical-align: baseline; text-align: center; font-weight: bold; border-radius: 0.25em; background-color: rgb(238, 77, 46); margin-right: 5px; }";
 
 	p.opClass = function(currentOp, currentUser) {
 		if(!currentOp || !currentUser)
