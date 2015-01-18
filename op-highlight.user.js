@@ -14,7 +14,7 @@
 
 (function() {
 	var opClassName = "extension-is-op"
-	var cssRule = "." + opClassName + " .user:before { content: 'OP'; color: rgb(255, 255, 255); padding: 1px 6px; vertical-align: baseline; text-align: center; font-weight: bold; border-radius: 0.25em; background-color: rgb(238, 77, 46); margin-right: 5px; }";
+	var cssRule = "." + opClassName + " .user:before { content: 'OP'; color: #FFF; padding: 1px 6px; vertical-align: baseline; text-align: center; font-weight: bold; border-radius: 0.25em; background-color: rgb(238, 77, 46); margin-right: 5px; }";
 
 	p.opClass = function(currentOp, currentUser) {
 		if(!currentOp || !currentUser)
