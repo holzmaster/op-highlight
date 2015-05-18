@@ -3,7 +3,8 @@
 // @author		holzmaster
 // @namespace	holzmaster
 // @include		http://pr0gramm.com*
-// @version		1.1.0
+// @include		https://pr0gramm.com*
+// @version		1.1.1
 // @updateURL	https://raw.githubusercontent.com/pr0nopoly/op-highlight/master/op-highlight.user.js
 // @downloadURL	https://raw.githubusercontent.com/pr0nopoly/op-highlight/master/op-highlight.user.js
 // @copyright	2014+, holzmaster
