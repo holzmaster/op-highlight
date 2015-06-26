@@ -4,7 +4,7 @@
 // @namespace	holzmaster
 // @include		http://pr0gramm.com*
 // @include		https://pr0gramm.com*
-// @version		1.1.1
+// @version		1.1.2
 // @updateURL	https://raw.githubusercontent.com/pr0nopoly/op-highlight/master/op-highlight.user.js
 // @downloadURL	https://raw.githubusercontent.com/pr0nopoly/op-highlight/master/op-highlight.user.js
 // @copyright	2014+, holzmaster
@@ -44,7 +44,7 @@
 
 		var oldLoaded = p.View.Stream.Comments.prototype.loaded;
 		p.View.Stream.Comments.prototype.loaded = function(item) {
-			this.data.itemOp = item.user || null;
+			this.data.itemOp = this.data.itemOp || item.user || null;
 			oldLoaded.apply(this, arguments);
 		};
 	});
