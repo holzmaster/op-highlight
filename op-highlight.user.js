@@ -4,7 +4,7 @@
 // @namespace	holzmaster
 // @include		http://pr0gramm.com*
 // @include		https://pr0gramm.com*
-// @version		1.1.2
+// @version		1.1.3
 // @updateURL	https://raw.githubusercontent.com/holzmaster/op-highlight/master/op-highlight.user.js
 // @downloadURL	https://raw.githubusercontent.com/holzmaster/op-highlight/master/op-highlight.user.js
 // @copyright	2014+, holzmaster
