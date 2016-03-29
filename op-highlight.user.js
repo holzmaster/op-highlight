@@ -37,8 +37,9 @@
 	$(function() {
 		p.View.Stream.Comments.prototype.template =
 		p.View.Stream.Comments.prototype.template
+			.replace('<?js if(c.name == op){?> <span class="user-comment-op">OP</span><?js}?>', '') /* remove features that uses span element */
 			.replace('class="comment{p.voteClass(c.vote)}',
-					 'class="comment{p.voteClass(c.vote)}{p.opClass(itemOp,c.name)}');
+					 'class="comment{p.voteClass(c.vote)}<?js if(c.name == op){?> ' + opClassName + '<?js}?>'); /* use css-content instead */
 
 		addGlobalStyle(cssRule);
 
