@@ -7,10 +7,12 @@ Hebt den OP eines Bildes in den Kommentaren hervor.
 Dieses Skript wird nicht mehr benötigt. Die Funktionalität ist mittlerweile in das pr0gramm übernommen wurden, allerdings technisch anders umgesetzt. Dieses Skript sieht auch etwas anders aus.
 
 Markierung, wie es momentan auf dem pr0gramm ist:
-![Alt](//i.imgur.com/ieC8hl6.png)
+
+![Alt](https://i.imgur.com/ieC8hl6.png)
 
 Mit dem Skript:
-![Neu](//i.imgur.com/4ZxtvDC.png)
+
+![Neu](https://i.imgur.com/4ZxtvDC.png)
 
 
 ## Installation
