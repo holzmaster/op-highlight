@@ -14,18 +14,16 @@
 // ==/UserScript==
 
 (function() {
+	"use strict";
+
 	var opClassName = "extension-is-op"
 	var cssRule = "." + opClassName + " .user:before { content: 'OP'; color: #FFF; padding: 1px 6px; vertical-align: baseline; text-align: center; font-weight: bold; border-radius: 0.25em; background-color: rgb(238, 77, 46); margin-right: 5px; }";
 
 	function addGlobalStyle(css) {
-		var head = document.getElementsByTagName("head")[0];
-		if (!head)
-			return;
-
-		var style = document.createElement("style");
-		style.type = "text/css";
+		const style = document.createElement('style');
+		style.type = 'text/css';
 		style.innerHTML = css;
-		head.appendChild(style);
+		document.head.appendChild(style);
 	}
 
 	$(function() {
