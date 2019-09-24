@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name		OP-Highlight
 // @author		holzmaster
-// @namespace		holzmaster
+// @namespace	holzmaster
 // @include		http://pr0gramm.com*
 // @include		https://pr0gramm.com*
-// @version		1.2.1
+// @version		2.0.0
 // @updateURL	https://holzmaster.github.io/op-highlight/op-highlight.user.js
 // @downloadURL	https://holzmaster.github.io/op-highlight/op-highlight.user.js
 // @copyright	2014+, holzmaster
@@ -20,17 +20,10 @@ function addGlobalStyle(css) {
 	document.head.appendChild(style);
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-	"use strict";
-
-	const cssRule = `span.user-comment-op { 
-				border-radius: 4px;
-				padding: 1px 5px;
-				vertical-align: baseline;
-				text-align: center;
-				font-weight: bold;
-				border-radius: 0.25em;
-			}`;
-	addGlobalStyle(cssRule);
-});
-
+addGlobalStyle(`span.user-comment-op { 
+	padding: 1px 5px;
+	vertical-align: baseline;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 0.25em;
+}`);
