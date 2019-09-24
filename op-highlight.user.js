@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name		OP-Highlight
 // @author		holzmaster
-// @namespace	holzmaster
+// @namespace		holzmaster
 // @include		http://pr0gramm.com*
 // @include		https://pr0gramm.com*
 // @version		1.2.0
@@ -23,13 +23,14 @@ function addGlobalStyle(css) {
 document.addEventListener("DOMContentLoaded", () => {
 	"use strict";
 
-	const cssRule = ".extension-is-op .user:before { content: 'OP'; color: #FFF; padding: 1px 6px; vertical-align: baseline; text-align: center; font-weight: bold; border-radius: 0.25em; background-color: rgb(238, 77, 46); margin-right: 5px; }";
-	p.View.Stream.Comments.prototype.template =
-	p.View.Stream.Comments.prototype.template
-		.replace('<?js if(c.name == itemUser){?> <span class="user-comment-op">OP</span><?js}?>', '') /* remove features that uses span element */
-		.replace('class="comment{p.voteClass(c.vote)}',
-				 'class="comment{p.voteClass(c.vote)}<?js if(c.name == itemUser){?> extension-is-op<?js}?>'); /* use css-content instead */
-
+	const cssRule = `span.user-comment-op { 
+				border-radius: 4px;
+				padding: 1px 5px;
+				vertical-align: baseline;
+				text-align: center;
+				font-weight: bold;
+				border-radius: 0.25em;
+			}`;
 	addGlobalStyle(cssRule);
 });
 
